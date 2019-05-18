@@ -1,0 +1,7 @@
+alias 2pg='sudo su - postgres'
+alias e='emacs -nw'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -l'
+alias ls='ls --color=auto'
+alias pspg='ps -ef | grep postgres'
