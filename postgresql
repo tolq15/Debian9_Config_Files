@@ -1,5 +1,5 @@
-# This file located in directory /etc/logrotate.hourly.d
 /var/log/postgresql/postgresql.log {
+       su root postgres
        # rotate on size or time
        # 1024M per day / 8 working hours =~ 150M
        size 150M
